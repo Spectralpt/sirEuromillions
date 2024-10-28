@@ -14,10 +14,17 @@
         </div>
         <div class="h-[80vh] flex items-center justify-center">
             <div class="text-center space-y-4">
-                <p class="text-2xl">Numbers:</p>
-                <p id="numbers" class="text-xl font-semibold"></p>
-                <p class="text-2xl">Stars:</p>
-                <p id="stars" class="text-xl font-semibold"></p>
+                <div id="numbers" class="flex space-x-2 justify-center [&>*]:border-blue-500 [&>*]:rounded [&>*]:bg-blue-300">
+                    <div class="numbers border p-2 w-10 h-10 text-center"></div>
+                    <div class="numbers border p-2 w-10 h-10 text-center"></div>
+                    <div class="numbers border p-2 w-10 h-10 text-center"></div>
+                    <div class="numbers border p-2 w-10 h-10 text-center"></div>
+                    <div class="numbers border p-2 w-10 h-10 text-center"></div>
+                </div>
+                <div id="stars" class="flex space-x-2 justify-center [&>*]:border-yellow-500 [&>*]:rounded [&>*]:bg-yellow-300">
+                    <div class="stars border p-2 w-10 h-10 text-center"></div>
+                    <div class="stars border p-2 w-10 h-10 text-center"></div>
+                </div>
                 
                 <button 
                     onclick="getNumbers()" 
